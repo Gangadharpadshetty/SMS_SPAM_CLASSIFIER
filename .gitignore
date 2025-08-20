@@ -1,0 +1,71 @@
+# ======================================
+# Python / Streamlit SMS Spam Classifier
+# ======================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Environment / tooling
+.python-version
+.env
+*.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage / test caches
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.cache/
+
+# Type checker / linters
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/
+
+# Project data and model artifacts
+artifacts/
+data/
+
+# Legacy/root artifacts
+model.pkl
+vectorizer.pkl
+metrics.json
+
+# Logs
+logs/
+*.log
+
+
